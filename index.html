@@ -1,0 +1,54 @@
+<html>
+<head>
+
+	<title>Correct and complete the circuit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+  </script>
+<script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="Picture.png">
+<center>
+<h1 class="btn btn-danger heading">
+Correct and complete the circuit
+</h1>
+
+<h3 class="btn btn-danger" id="Level_1">Level 1: Is this a parallel circuit, series circuit or neither?</h3><br><img src="Level_1.png"><br>
+<button class="btn btn-danger" id="Level_1" onclick="check_levels()"></button><br>
+<button class="btn btn-danger" id="Level_1_a" onclick="check_answers()">a. Series circuit</button><br><br>
+<button class="btn btn-danger" id="Level_1_b" onclick="check_answers()">b. Parallel circuit</button><br><br>
+<button class="btn btn-danger" id="Level_1_c" onclick="check_answers()">c. Neither</button><br><br>
+<br>
+<h3 class="btn btn-danger" id="Level_2">Level 2: Attach the missing wire in such a way that only when the push button is pressed the light bulb will switch on</h3><br><img src="Level_2.png"><br>
+<button class="btn btn-danger" id="Level_2" onclick="check_levels()"></button><br>
+<button class="btn btn-danger" id="Level_2_a" onclick="check_answers()">a. Attach the wire from terminal 2b to the second terminal of the bulb</button><br><br>
+<button class="btn btn-danger" id="Level_2_b" onclick="check_answers()">b. Attach the wire from terminal 1a to the second terminal of the bulb</button><br><br>
+<button class="btn btn-danger" id="Level_2_c" onclick="check_answers()">c.  Attach the wire from terminal 1a to the second terminal of the bulbr</button><br><br>
+<br>
+<h3 class="btn btn-danger" id="Level_3">Level 3: Do you need to connect the wires differently to make this circuit a parallel circuit?</h3><br><img src="Level_3.png"><br>
+<button class="btn btn-danger" id="Level_3" onclick="check_levels()"></button><br>
+<button class="btn btn-danger" id="Level_3_a" onclick="check_answers()">a. You do not need to change the circuit as it is already a parallel circuit</button><br><br>
+<button class="btn btn-danger" id="Level_3_b" onclick="check_answers()">b. You need to place the bulbs one above the other and not change the wiring</button><br><br>
+<button class="btn btn-danger" id="Level_3_c" onclick="check_answers()">c.  You need to change the wiring so that the bulbs are directly connected to the battery</button><br><br>
+<br>
+<h3 class="btn btn-danger" id="Level_4">Level 4: Where should the switch be added in the circuit?</h3><br><img src="Level_4.png"><br>
+<button class="btn btn-danger" id="Level_4" onclick="check_levels()"></button><br>
+<img src="Screenshot (234).png" id="Level_4_a" class="btn btn-danger"><br><br>
+<img src="Screenshot (236).png" id="Level_4_b" class="btn btn-danger"><br><br>
+<img src="Screenshot (235).png" id="Level_4_c" class="btn btn-danger"><br><br>
+<br>
+<h3 class="btn btn-danger" id="Level_5">Level 5: Where should the pushbutton/pushbuttons be added in the circuit?</h3><br><img src="Level_5.png"><br>
+<button class="btn btn-danger" id="Level_5" onclick="check_levels()"></button><br>
+<img src="Screenshot (237).png" id="Level_5_a" class="btn btn-danger"><br><br>
+<img src="Screenshot (239).png" id="Level_5_b" class="btn btn-danger"><br><br>
+<img src="Screenshot (238).png" id="Level_5_c" class="btn btn-danger"><br><br>
+<img src="Screenshot (241).png" id="Level_5_d" class="btn btn-danger"><br><br>
+<br>
